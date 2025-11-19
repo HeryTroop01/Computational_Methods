@@ -1,4 +1,4 @@
-mport numpy as np
+import numpy as np
 
 def partial_pivot(A, b):
     n = len(A)
