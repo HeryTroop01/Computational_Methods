@@ -1,6 +1,6 @@
 #Solve the Linear Equations by: Gauss Elimination Method:
 
-#Module
+#Module used Numpy
 import numpy as np
 
 Defined Function
