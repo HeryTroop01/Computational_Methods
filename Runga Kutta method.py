@@ -1,5 +1,5 @@
 def f(x, y):
-    return x + y          
+    return x + y
 
 def rk(x0, y0, h, steps):
     x = x0
@@ -14,13 +14,14 @@ def rk(x0, y0, h, steps):
         y = y + (k1 + 2*k2 + 2*k3 + k4) / 6
         x = x + h
 
-        print("Step", i+1, ": x =", x, ", y =", y)
+        print(f"Step {i+1}: x = {x}, y = {y}")
 
     return y
 
+# Initial conditions
 x0 = 0
 y0 = 1
 h = 0.1
-steps = 1        
+steps = 1
 
 rk(x0, y0, h, steps)
