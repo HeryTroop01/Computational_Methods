@@ -1,4 +1,8 @@
 #Solve the Linear Equations by: Gauss Elimination Method:
+#Problem: 1 Solve the following sets of linear equations using the method of Gauss elimination with Partial pivoting.
+# Eqn: 2x + 3y + 8x = 1; 
+# Eqn: 4x +7y + 3z = 3;
+# Eqn: 6x + 7y + 10z = 7;
 
 #Module used Numpy
 import numpy as np
