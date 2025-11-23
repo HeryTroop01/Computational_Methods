@@ -1,3 +1,6 @@
+# dy/dx = x + y with y(0) = 1
+# Find y(0.1) using Euler method with h = 0.1
+
 def f(x, y):
     return x + y
 
@@ -16,6 +19,6 @@ def euler(x0, y0, h, steps):
 x0 = 0
 y0 = 1
 h = 0.1
-steps = 5
+steps = 1   # Only one step to get y(0.1)
 
 euler(x0, y0, h, steps)
