@@ -34,7 +34,7 @@ def complete_pivot(A, b):
     # Back substitution
     x = np.zeros(n)
     for i in range(n - 1, -1, -1):
-        x[i] = (b[i] - A[i, i + 1:] @ x[i + 1:]) / A[i, i]
+        x[i] = (b[i] - np.dot(a[i, i+1:], x[i+1:]) / A[i, i]
 
     # Reorder solution according to swapped columns
     final_x = np.zeros(n)
